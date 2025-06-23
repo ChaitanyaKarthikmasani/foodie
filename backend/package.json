@@ -7,13 +7,13 @@
   "author": "Ikechukwu Peter",
   "license": "MIT",
   "private": false,
-  "scripts": {
+ "scripts": {
   "build": "tsc",
-  "start": "node dist/index.js"
-    "dev": "npx nodemon",
-    "lint": "npx eslint --ignore-path .gitignore --ext .js,.ts --fix",
-    "format": "npx prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
-  },
+  "start": "node dist/index.js",
+  "dev": "npx nodemon",
+  "lint": "npx eslint --ignore-path .gitignore --ext .js,.ts --fix",
+  "format": "npx prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+},
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "buffer-to-stream": "^1.0.0",
